@@ -65,6 +65,7 @@ let g:ctrlp_working_path_mode = 'ra'
 set wildignore+=*/tmp/*,*/.git/*
 set wildignore+=*.so,*.swp,*.zip
 set wildignore+=*.pyc,*.min.js,*.class
+set wildignore+=*/target/*
 
 " php.vim
 function! PhpSyntaxOverride()
