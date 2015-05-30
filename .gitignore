@@ -1,2 +1,4 @@
 !/.vimrc
 /.vim/autoload
+/.vim/eclim
+/.vim/plugin
