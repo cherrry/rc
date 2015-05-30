@@ -61,3 +61,6 @@
 [submodule "vim/bundle/auto-pairs"]
 	path = vim/bundle/auto-pairs
 	url = git@github.com:jiangmiao/auto-pairs.git
+[submodule "vim/bundle/php.vim"]
+	path = vim/bundle/php.vim
+	url = git@github.com:StanAngeloff/php.vim.git
