@@ -1,5 +1,6 @@
 .DS_Store
 .vimrc
+.phpcomplete_extended
 *.swp
 *.swo
 *.pyc
