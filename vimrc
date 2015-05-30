@@ -57,3 +57,8 @@ let g:jsx_ext_required = 0
 " YouCompleteMe
 set omnifunc=syntaxcomplete#Complete
 let g:EclimCompletionMethod = 'omnifunc'
+
+" CtrlP
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
+let g:ctrlp_working_path_mode = 'ra'
