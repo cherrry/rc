@@ -13,3 +13,5 @@ git submodule update --init --recursive
 # link scripts
 ln -s $DIR/.vim ~/.vim
 ln -s $DIR/.vimrc ~/.vimrc
+ln -s $DIR/.gitconfig ~/.gitconfig
+ln -s $DIR/.gitignore-global ~/.gitignore

@@ -1,0 +1,5 @@
+.DS_Store
+.vimrc
+*.swp
+*.swo
+*.pyc
