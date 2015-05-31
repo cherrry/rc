@@ -16,9 +16,6 @@
 [submodule "vim/bundle/vim-indent-guides"]
 	path = vim/bundle/vim-indent-guides
 	url = git://github.com/nathanaelkane/vim-indent-guides.git
-[submodule "vim/bundle/vim-independence"]
-	path = vim/bundle/vim-independence
-	url = git@github.com:AD7six/vim-independence.git
 [submodule "vim/bundle/vim-javascript"]
 	path = vim/bundle/vim-javascript
 	url = git@github.com:pangloss/vim-javascript.git
@@ -64,3 +61,6 @@
 [submodule "vim/bundle/phpcomplete-extended"]
 	path = vim/bundle/phpcomplete-extended
 	url = git@github.com:m2mdas/phpcomplete-extended.git
+[submodule "vim/bundle/1ndependence.vim"]
+	path = vim/bundle/1ndependence.vim
+	url = git@github.com:cherrry/1ndependence.vim.git
