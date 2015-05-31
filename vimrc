@@ -1,13 +1,15 @@
+" Pathogen
 execute pathogen#infect()
+filetype plugin indent on
+
+" Sensible
 runtime! plugin/sensible.vim
 
-filetype plugin indent on
+" Basic Configuration
 set encoding=utf-8
 set autochdir
 set mouse=a
 set number
-
-" Tab/Space
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
@@ -55,7 +57,7 @@ let g:ackprg = 'ag --vimgrep'
 let g:jsx_ext_required = 0
 
 " YouCompleteMe
-set omnifunc=syntaxcomplete#Complete
+set omnifunc=youcompleteme#Complete
 let g:EclimCompletionMethod = 'omnifunc'
 
 " CtrlP
@@ -64,15 +66,13 @@ let g:ctrlp_cmd = 'CtrlP'
 let g:ctrlp_working_path_mode = 'ra'
 set wildignore+=*/tmp/*,*/.git/*
 set wildignore+=*.so,*.swp,*.zip
-set wildignore+=*.pyc,*.min.js,*.class
-set wildignore+=*/target/*
+set wildignore+=*.pyc,*.min.js
 
 " php.vim
 function! PhpSyntaxOverride()
     hi! def link phpDocTags  phpDefine
     hi! def link phpDocParam phpType
 endfunction
-
 augroup phpSyntaxOverride
     autocmd!
     autocmd FileType php call PhpSyntaxOverride()
