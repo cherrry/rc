@@ -59,6 +59,7 @@ let g:jsx_ext_required = 0
 " YouCompleteMe
 set omnifunc=youcompleteme#Complete
 let g:EclimCompletionMethod = 'omnifunc'
+let g:ycm_semantic_triggers = { 'scala': ['.', ' '] }
 
 " CtrlP
 let g:ctrlp_map = '<c-p>'
