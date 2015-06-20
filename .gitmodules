@@ -61,3 +61,9 @@
 [submodule "vim/bundle/1ndependence.vim"]
 	path = vim/bundle/1ndependence.vim
 	url = git@github.com:cherrry/1ndependence.vim.git
+[submodule "base16-shell"]
+	path = base16-shell
+	url = git@github.com:chriskempson/base16-shell.git
+[submodule "oh-my-zsh"]
+	path = oh-my-zsh
+	url = git@github.com:robbyrussell/oh-my-zsh.git
