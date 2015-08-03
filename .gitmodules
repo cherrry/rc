@@ -55,9 +55,6 @@
 [submodule "vim/bundle/vimproc.vim"]
 	path = vim/bundle/vimproc.vim
 	url = git@github.com:Shougo/vimproc.vim.git
-[submodule "vim/bundle/phpcomplete-extended"]
-	path = vim/bundle/phpcomplete-extended
-	url = git@github.com:m2mdas/phpcomplete-extended.git
 [submodule "vim/bundle/1ndependence.vim"]
 	path = vim/bundle/1ndependence.vim
 	url = git@github.com:cherrry/1ndependence.vim.git
