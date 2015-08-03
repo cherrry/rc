@@ -15,7 +15,9 @@
     ad = add
     addd = add
     co = checkout
+    coo = checkout
     cm = commit
+    cmm = commit
     s = status
     st = status
     br = branch
