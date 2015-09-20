@@ -81,3 +81,6 @@ augroup END
 " phpcomplete-extended
 autocmd FileType php setlocal omnifunc=phpcomplete_extended#CompletePHP
 let g:phpcomplete_index_composer_command='composer'
+
+" Format specific tab size
+autocmd FileType js,json,javascript.jsx,html set sw=2 ts=2 sts=2
