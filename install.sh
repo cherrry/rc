@@ -25,3 +25,9 @@ mkdir -p ~/.config
 [ ! -L ~/.vimrc ] && ln -s $DIR/vimrc ~/.vimrc
 [ ! -L ~/.gitconfig ] && ln -s $DIR/gitconfig ~/.gitconfig
 [ ! -L ~/.gitignore ] && ln -s $DIR/gitignore ~/.gitignore
+
+# install xcode color scheme
+if [ `uname` == 'Darwin' ]; then
+    mkdir -p ~/Library/Developer/Xcode/UserData/FontAndColorThemes
+    cp $DIR/xcode/* ~/Library/Developer/Xcode/UserData/FontAndColorThemes
+fi
