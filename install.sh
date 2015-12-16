@@ -31,3 +31,9 @@ if [ `uname` == 'Darwin' ]; then
     mkdir -p ~/Library/Developer/Xcode/UserData/FontAndColorThemes
     cp $DIR/xcode/* ~/Library/Developer/Xcode/UserData/FontAndColorThemes
 fi
+
+# install jetbrains color scheme
+if [ `uname` == 'Darwin' ]; then
+    mkdir -p ~/Library/Preferences/WebIde70/colors
+    cp $DIR/base16-jetbrains/* ~/Library/Preferences/WebIde70/colors
+fi
