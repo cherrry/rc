@@ -54,7 +54,7 @@ export LANG=en_US.UTF-8
 export EDITOR='vim'
 
 # thefuck
-eval "$(thefuck --alias)"
+# eval "$(thefuck --alias)"
 
 # profit!
 source $ZSH/oh-my-zsh.sh
