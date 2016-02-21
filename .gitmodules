@@ -73,3 +73,9 @@
 [submodule "base16-jetbrains"]
 	path = base16-jetbrains
 	url = git@github.com:mewdriller/base16-jetbrains.git
+[submodule "omz-custom/plugins/zsh-autosuggestions"]
+	path = omz-custom/plugins/zsh-autosuggestions
+	url = git@github.com:tarruda/zsh-autosuggestions.git
+[submodule "omz-custom/plugins/zsh-syntax-highlighting"]
+	path = omz-custom/plugins/zsh-syntax-highlighting
+	url = git@github.com:zsh-users/zsh-syntax-highlighting.git

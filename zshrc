@@ -46,7 +46,7 @@ DISABLE_UNTRACKED_FILES_DIRTY="true"
 ZSH_CUSTOM=~/.omz-custom
 
 # oh-my-zsh plugins
-plugins=(colored-man git emoji-clock)
+plugins=(colored-man git emoji-clock zsh-autosuggestions zsh-syntax-highlighting)
 
 # other configurations
 export MANPATH="/usr/local/man:$MANPATH"
