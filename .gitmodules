@@ -61,3 +61,6 @@
 [submodule "vim/bundle/ensime-vim"]
 	path = vim/bundle/ensime-vim
 	url = https://github.com/ensime/ensime-vim.git
+[submodule "vim/bundle/vim-scala"]
+	path = vim/bundle/vim-scala
+	url = https://github.com/derekwyatt/vim-scala.git

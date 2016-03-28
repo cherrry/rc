@@ -6,6 +6,11 @@ DIR=$(cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd)
 mkdir -p $DIR/vim/autoload $DIR/vim/bundle
 curl -LSso $DIR/vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 
+# install ensime
+pip install websocket-client
+mkdir -p ~/.sbt/0.13/plugins
+[ ! -L ~/.sbt/0.13/plugins/plugins.sbt ] && ln -s $DIR/sbt/plugins.sbt ~/.sbt/0.13/plugins/plugins.sbt
+
 # compile modules
 git submodule update --init --recursive
 git submodule update --remote --recursive
