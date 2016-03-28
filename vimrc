@@ -60,6 +60,10 @@ set wildignore+=*/tmp/*,*/.git/*
 set wildignore+=*.so,*.swp,*.zip
 set wildignore+=*.pyc,*.min.js
 
+" Syntastic
+let g:syntastic_mode_map = { "mode": "passive" }
+let g:syntastic_ruby_exec = '~/.rvm/rubies/ruby-2.1.1/bin/ruby'
+
 " php.vim
 function! PhpSyntaxOverride()
     hi! def link phpDocTags  phpDefine
