@@ -80,10 +80,17 @@ let g:syntastic_stl_format = '%E{Error: %fe(#%e)}%B{, }%W{Warning: %fw(#%w
 autocmd FileType js,json,javascript.jsx,html,scala set sw=2 ts=2 sts=2
 
 " Key Mapping
-let mapleader = ','
+let mapleader = ';'
 " Split Windows
 nnoremap <leader>v :topleft vnew<CR>
 nnoremap <leader>s :topleft new<CR>
+nnoremap <leader>h <c-w><left>
+nnoremap <leader>j <c-w><down>
+nnoremap <leader>k <c-w><up>
+nnoremap <leader>l <c-w><right>
+" Save and quit
+nnoremap <leader>w :w<CR>
+nnoremap <leader>q :q<CR>
 " Toggle Nerd Tree
 nnoremap <c-n> :NERDTreeTabsToggle<CR>
 " Ensime
