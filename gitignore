@@ -7,3 +7,4 @@
 workbench.xmi
 npm-debug.log
 .ensime
+.ensime_cache

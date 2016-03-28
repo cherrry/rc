@@ -60,9 +60,9 @@ set wildignore+=*/tmp/*,*/.git/*
 set wildignore+=*.so,*.swp,*.zip
 set wildignore+=*.pyc,*.min.js
 
-" Syntastic
+" Syntastics
 let g:syntastic_mode_map = { "mode": "passive" }
-let g:syntastic_ruby_exec = '~/.rvm/rubies/ruby-2.1.1/bin/ruby'
+let g:syntastic_scala_checkers = ['ensime']
 
 " php.vim
 function! PhpSyntaxOverride()
