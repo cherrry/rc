@@ -6,3 +6,4 @@
 *.pyc
 workbench.xmi
 npm-debug.log
+.ensime
