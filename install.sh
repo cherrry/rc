@@ -8,6 +8,7 @@ curl -LSso $DIR/vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 
 # compile modules
 git submodule update --init --recursive
+git submodule update --remote --recursive
 cd $DIR/vim/bundle/vimproc.vim && make
 
 # create folders
