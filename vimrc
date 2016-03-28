@@ -39,7 +39,6 @@ let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
 
 " NERDTree
-map <C-n> :NERDTreeTabsToggle<CR>
 let NERDTreeHighlightCursorline = 1
 let NERDTreeIgnore = ['.git']
 
@@ -59,24 +58,24 @@ let g:ctrlp_working_path_mode = 'ra'
 set wildignore+=*/tmp/*,*/.git/*
 set wildignore+=*.so,*.swp,*.zip
 set wildignore+=*.pyc,*.min.js
+set wildignore+=*/target/*
 
 " Syntastics
 let g:syntastic_mode_map = { "mode": "passive" }
 let g:syntastic_scala_checkers = ['ensime']
 
-" php.vim
-function! PhpSyntaxOverride()
-    hi! def link phpDocTags  phpDefine
-    hi! def link phpDocParam phpType
-endfunction
-augroup phpSyntaxOverride
-    autocmd!
-    autocmd FileType php call PhpSyntaxOverride()
-augroup END
-
-" phpcomplete-extended
-autocmd FileType php setlocal omnifunc=phpcomplete_extended#CompletePHP
-let g:phpcomplete_index_composer_command='composer'
-
 " Format specific tab size
-autocmd FileType js,json,javascript.jsx,html set sw=2 ts=2 sts=2
+autocmd FileType js,json,javascript.jsx,html,scala set sw=2 ts=2 sts=2
+
+" Key Mapping
+let mapleader = ','
+" Split Windows
+nnoremap <leader>v :topleft vnew<CR>
+nnoremap <leader>s :topleft new<CR>
+" Toggle Nerd Tree
+nnoremap <c-n> :NERDTreeTabsToggle<CR>
+" Ensime
+nnoremap <c-t> :EnType<CR>
+" Use Omni Complete
+inoremap <c-p> <c-x><c-o>
+inoremap <c-n> <c-x><c-o>
