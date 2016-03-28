@@ -46,19 +46,11 @@ let NERDTreeIgnore = ['.git']
 " Highlights
 hi Normal ctermbg=None
 
-" Syntastic
-let g:syntastic_mode_map = { "mode": "passive" }
-let g:syntastic_ruby_exec = '~/.rvm/rubies/ruby-2.1.1/bin/ruby'
-
 " Ag
 let g:ackprg = 'ag --vimgrep'
 
 " Jsx syntax highlight
 let g:jsx_ext_required = 0
-
-" YouCompleteMe
-set omnifunc=youcompleteme#Complete
-let g:EclimCompletionMethod = 'omnifunc'
 
 " CtrlP
 let g:ctrlp_map = '<c-p>'

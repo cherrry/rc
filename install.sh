@@ -8,7 +8,6 @@ curl -LSso $DIR/vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 
 # compile modules
 git submodule update --init --recursive
-$DIR/vim/bundle/YouCompleteMe/install.sh --clang-completer --gocode-completer
 cd $DIR/vim/bundle/vimproc.vim && make
 
 # create folders
