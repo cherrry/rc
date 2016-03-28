@@ -40,16 +40,13 @@ let g:airline#extensions#tabline#enabled = 1
 
 " NERDTree
 let NERDTreeHighlightCursorline = 1
-let NERDTreeIgnore = ['.git']
+let NERDTreeIgnore = ['.git', 'target']
 
 " Highlights
 hi Normal ctermbg=None
 
 " Ag
 let g:ackprg = 'ag --vimgrep'
-
-" Jsx syntax highlight
-let g:jsx_ext_required = 0
 
 " CtrlP
 let g:ctrlp_map = '<c-p>'
@@ -60,9 +57,24 @@ set wildignore+=*.so,*.swp,*.zip
 set wildignore+=*.pyc,*.min.js
 set wildignore+=*/target/*
 
-" Syntastics
+" Syntastic
+" Location List
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_loc_list_height = 5
+" When to Check
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
 let g:syntastic_mode_map = { "mode": "passive" }
+" Override Type Checkers
 let g:syntastic_scala_checkers = ['ensime']
+" Override Symbols
+let g:syntastic_error_symbol = "😠"
+let g:syntastic_warning_symbol = "😒"
+let g:syntastic_style_error_symbol = "🤕"
+let g:syntastic_style_warning_symbol = "😑"
+" Formatting
+let g:syntastic_stl_format = '%E{Error: %fe(#%e)}%B{, }%W{Warning: %fw(#%w)}'
 
 " Format specific tab size
 autocmd FileType js,json,javascript.jsx,html,scala set sw=2 ts=2 sts=2
