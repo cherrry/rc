@@ -1,60 +1,60 @@
 [submodule "vim/bundle/base16-vim"]
 	path = vim/bundle/base16-vim
-	url = git@github.com:chriskempson/base16-vim.git
+	url = https://github.com/chriskempson/base16-vim.git
 [submodule "vim/bundle/eregex.vim"]
 	path = vim/bundle/eregex.vim
-	url = git@github.com:othree/eregex.vim.git
+	url = https://github.com/othree/eregex.vim.git
 [submodule "vim/bundle/nerdtree"]
 	path = vim/bundle/nerdtree
-	url = git@github.com:scrooloose/nerdtree.git
+	url = https://github.com/scrooloose/nerdtree.git
 [submodule "vim/bundle/vim-airline"]
 	path = vim/bundle/vim-airline
-	url = git@github.com:bling/vim-airline.git
+	url = https://github.com/vim-airline/vim-airline.git
 [submodule "vim/bundle/vim-indent-guides"]
 	path = vim/bundle/vim-indent-guides
-	url = git://github.com/nathanaelkane/vim-indent-guides.git
+	url = https://github.com/nathanaelkane/vim-indent-guides.git
 [submodule "vim/bundle/vim-nerdtree-tabs"]
 	path = vim/bundle/vim-nerdtree-tabs
-	url = git@github.com:jistr/vim-nerdtree-tabs.git
+	url = https://github.com/jistr/vim-nerdtree-tabs.git
 [submodule "vim/bundle/vim-sensible"]
 	path = vim/bundle/vim-sensible
-	url = git://github.com/tpope/vim-sensible.git
+	url = https://github.com/tpope/vim-sensible
 [submodule "vim/bundle/vim-snipmate"]
 	path = vim/bundle/vim-snipmate
-	url = git@github.com:garbas/vim-snipmate.git
+	url = https://github.com/garbas/vim-snipmate.git
 [submodule "vim/bundle/vim-snippets"]
 	path = vim/bundle/vim-snippets
-	url = git@github.com:honza/vim-snippets.git
+	url = https://github.com/honza/vim-snippets.git
 [submodule "vim/bundle/ack.vim"]
 	path = vim/bundle/ack.vim
-	url = git@github.com:mileszs/ack.vim.git
+	url = https://github.com/mileszs/ack.vim.git
 [submodule "vim/bundle/vim-addon-mw-utils"]
 	path = vim/bundle/vim-addon-mw-utils
-	url = git@github.com:MarcWeber/vim-addon-mw-utils.git
+	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
 [submodule "vim/bundle/ctrlp.vim"]
 	path = vim/bundle/ctrlp.vim
-	url = git@github.com:kien/ctrlp.vim.git
+	url = https://github.com/kien/ctrlp.vim.git
 [submodule "vim/bundle/vimproc.vim"]
 	path = vim/bundle/vimproc.vim
-	url = git@github.com:Shougo/vimproc.vim.git
+	url = https://github.com/Shougo/vimproc.vim.git
 [submodule "vim/bundle/1ndependence.vim"]
 	path = vim/bundle/1ndependence.vim
 	url = git@github.com:cherrry/1ndependence.vim.git
 [submodule "base16-shell"]
 	path = base16-shell
-	url = git@github.com:chriskempson/base16-shell.git
+	url = https://github.com/chriskempson/base16-shell.git
 [submodule "oh-my-zsh"]
 	path = oh-my-zsh
-	url = git@github.com:robbyrussell/oh-my-zsh.git
+	url = https://github.com/robbyrussell/oh-my-zsh.git
 [submodule "base16-jetbrains"]
 	path = base16-jetbrains
-	url = git@github.com:mewdriller/base16-jetbrains.git
+	url = https://github.com/mewdriller/base16-jetbrains.git
 [submodule "omz-custom/plugins/zsh-autosuggestions"]
 	path = omz-custom/plugins/zsh-autosuggestions
-	url = git@github.com:tarruda/zsh-autosuggestions.git
+	url = https://github.com/zsh-users/zsh-autosuggestions.git
 [submodule "omz-custom/plugins/zsh-syntax-highlighting"]
 	path = omz-custom/plugins/zsh-syntax-highlighting
-	url = git@github.com:zsh-users/zsh-syntax-highlighting.git
+	url = https://github.com/zsh-users/zsh-syntax-highlighting.git
 [submodule "vim/bundle/vim-airline-themes"]
 	path = vim/bundle/vim-airline-themes
 	url = https://github.com/vim-airline/vim-airline-themes
