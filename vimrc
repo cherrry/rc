@@ -2,6 +2,9 @@
 execute pathogen#infect()
 filetype plugin indent on
 
+" Use bash
+set shell=/bin/bash
+
 " Sensible
 runtime! plugin/sensible.vim
 
@@ -58,8 +61,6 @@ set wildignore+=*.pyc,*.min.js
 set wildignore+=*/target/*
 
 " Syntastic
-" Shell
-let g:syntastic_shell = "/bin/bash"
 " Location List
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
@@ -70,11 +71,6 @@ let g:syntastic_check_on_wq = 0
 let g:syntastic_mode_map = { "mode": "passive" }
 " Override Type Checkers
 let g:syntastic_scala_checkers = ['ensime']
-" Override Symbols
-let g:syntastic_error_symbol = "😠"
-let g:syntastic_warning_symbol = "😒"
-let g:syntastic_style_error_symbol = "🤕"
-let g:syntastic_style_warning_symbol = "😑"
 " Formatting
 let g:syntastic_stl_format = '%E{Error: %fe(#%e)}%B{, }%W{Warning: %fw(#%w)}'
 
