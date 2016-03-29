@@ -58,6 +58,8 @@ set wildignore+=*.pyc,*.min.js
 set wildignore+=*/target/*
 
 " Syntastic
+" Shell
+let g:syntastic_shell = "/bin/bash"
 " Location List
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
