@@ -77,22 +77,27 @@ let g:syntastic_stl_format = '%E{Error: %fe(#%e)}%B{, }%W{Warning: %fw(#%w
 " Format specific tab size
 autocmd FileType js,json,javascript.jsx,html,scala set sw=2 ts=2 sts=2
 
+" Rainbow Parenthesis
+let g:rainbow#pairs = [['(', ')'], ['[', ']'], ['{', '}'], ['<', '>']]
+
 " Key Mapping
 let mapleader = ';'
 " Split Windows
 nnoremap <leader>v :topleft vnew<CR>
 nnoremap <leader>s :topleft new<CR>
-nnoremap <leader>h <c-w><left>
-nnoremap <leader>j <c-w><down>
-nnoremap <leader>k <c-w><up>
-nnoremap <leader>l <c-w><right>
+nnoremap <leader>h <C-w><left>
+nnoremap <leader>j <C-w><down>
+nnoremap <leader>k <C-w><up>
+nnoremap <leader>l <C-w><right>
 " Save and quit
 nnoremap <leader>w :w<CR>
 nnoremap <leader>q :q<CR>
 " Toggle Nerd Tree
-nnoremap <c-n> :NERDTreeTabsToggle<CR>
+nnoremap <C-n> :NERDTreeTabsToggle<CR>
 " Ensime
-nnoremap <c-t> :EnType<CR>
+nnoremap <C-t> :EnType<CR>
 " Use Omni Complete
-inoremap <c-p> <c-x><c-o>
-inoremap <c-n> <c-x><c-o>
+inoremap <C-p> <C-x><C-o>
+inoremap <C-n> <C-x><C-o>
+" Rainbow Parenthesis
+nnoremap <C-c> :RainbowParentheses!!<CR>
