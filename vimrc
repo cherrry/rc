@@ -80,6 +80,9 @@ autocmd FileType js,json,javascript.jsx,html,scala set sw=2 ts=2 sts=2
 " Rainbow Parenthesis
 let g:rainbow#pairs = [['(', ')'], ['[', ']'], ['{', '}'], ['<', '>']]
 
+" Markdown
+let g:vim_markdown_folding_disabled = 1
+
 " Key Mapping
 let mapleader = ';'
 " Split Windows
@@ -101,3 +104,5 @@ inoremap <C-p> <C-x><C-o>
 inoremap <C-n> <C-x><C-o>
 " Rainbow Parenthesis
 nnoremap <C-c> :RainbowParentheses!!<CR>
+" Indent Guides
+nnoremap <C-i> :IndentGuidesToggle<CR>
