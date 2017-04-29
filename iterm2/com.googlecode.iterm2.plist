@@ -967,6 +967,25 @@
 	<string></string>
 	<key>NSScrollAnimationEnabled</key>
 	<false/>
+	<key>NSScrollViewShouldScrollUnderTitlebar</key>
+	<false/>
+	<key>NSTableView Columns KeyBingingTable</key>
+	<array>
+		<data>
+		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
+		hAErATCG
+		</data>
+		<string>198</string>
+		<data>
+		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
+		hAErATGG
+		</data>
+		<string>307</string>
+	</array>
+	<key>NSTableView Hidden Columns KeyBingingTable</key>
+	<array/>
+	<key>NSTableView Sort Ordering KeyBingingTable</key>
+	<array/>
 	<key>NSToolbar Configuration com.apple.NSColorPanel</key>
 	<dict>
 		<key>TB Is Shown</key>
@@ -977,19 +996,21 @@
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>541 119 692 282 0 0 1440 877 </string>
 	<key>NSWindow Frame Preferences</key>
-	<string>213 287 924 485 0 0 1440 877 </string>
+	<string>213 403 606 456 0 0 1440 877 </string>
 	<key>NSWindow Frame SUStatusFrame</key>
 	<string>528 562 384 129 0 0 1440 877 </string>
+	<key>NSWindow Frame SharedPreferences</key>
+	<string>269 97 918 498 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 0 1440 900 0 0 1440 877 </string>
+	<string>0 425 570 452 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>725 266 650 476 0 0 1440 877 </string>
+	<string>238 356 650 477 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
-	<string>350 52 650 476 0 0 1440 877 </string>
+	<string>143 52 650 477 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 3</key>
-	<string>783 396 650 476 0 0 1440 877 </string>
+	<string>783 378 650 477 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 4</key>
-	<string>147 93 650 476 0 0 1440 877 </string>
+	<string>147 75 650 477 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 5</key>
 	<string>697 184 650 476 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 6</key>
@@ -1711,7 +1732,7 @@
 			<key>Terminal Type</key>
 			<string>xterm-256color</string>
 			<key>Transparency</key>
-			<real>0.1366933137178421</real>
+			<real>0.22256610576923078</real>
 			<key>Triggers</key>
 			<array/>
 			<key>Unlimited Scrollback</key>
@@ -1734,8 +1755,18 @@
 			<string>/Users/cherry</string>
 		</dict>
 	</array>
+	<key>NoSyncDoNotWarnBeforeMultilinePaste</key>
+	<true/>
+	<key>NoSyncDoNotWarnBeforeMultilinePaste_selection</key>
+	<integer>0</integer>
 	<key>NoSyncHaveShownPromoWithId_4</key>
 	<true/>
+	<key>NoSyncInstallationId</key>
+	<string>8AF995C7-C95C-4DAC-8B4A-19FC4C3CA4D7</string>
+	<key>NoSyncPermissionToShowTip</key>
+	<false/>
+	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
+	<real>482323887.26229697</real>
 	<key>NoSyncTimeOfLastPromo</key>
 	<real>477570595.772834</real>
 	<key>NoSyncTimeOfLastPromoDownload</key>
@@ -1803,12 +1834,14 @@
 	<true/>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
+	<key>SUFeedAlternateAppNameKey</key>
+	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>https://iterm2.com/appcasts/testing.xml</string>
+	<string>https://iterm2.com/appcasts/testing.xml?shard=70</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-04-13T11:25:25Z</date>
+	<date>2017-04-15T12:51:31Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Show Toolbelt</key>
@@ -1816,7 +1849,7 @@
 	<key>ShowBookmarkName</key>
 	<false/>
 	<key>ShowFullScreenTabBar</key>
-	<true/>
+	<false/>
 	<key>ShowPaneTitles</key>
 	<true/>
 	<key>SmartPlacement</key>
@@ -1865,6 +1898,6 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>2.1.4</string>
+	<string>3.0.15</string>
 </dict>
 </plist>
