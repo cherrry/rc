@@ -1,3 +1,5 @@
 /vim/autoload
 /vim/eclim
 /vim/plugin
+/vim/bundle
+!/vim/bundle/Vundle.vim
