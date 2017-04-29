@@ -2,19 +2,14 @@
 
 DIR=$(cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd)
 
-# install pathogen
-mkdir -p $DIR/vim/autoload $DIR/vim/bundle
-curl -LSso $DIR/vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
-
 # install ensime
-pip install websocket-client
+pip install websocket-client sexpdata
 mkdir -p ~/.sbt/0.13/plugins
 [ ! -L ~/.sbt/0.13/plugins/plugins.sbt ] && ln -s $DIR/sbt/plugins.sbt ~/.sbt/0.13/plugins/plugins.sbt
 
 # compile modules
 git submodule update --init --recursive
 git submodule update --remote --recursive
-cd $DIR/vim/bundle/vimproc.vim && make
 
 # create folders
 mkdir -p ~/.config
@@ -35,10 +30,4 @@ mkdir -p ~/.config
 if [ `uname` == 'Darwin' ]; then
     mkdir -p ~/Library/Developer/Xcode/UserData/FontAndColorThemes
     cp $DIR/xcode/* ~/Library/Developer/Xcode/UserData/FontAndColorThemes
-fi
-
-# install jetbrains color scheme
-if [ `uname` == 'Darwin' ]; then
-    mkdir -p ~/Library/Preferences/WebIde70/colors
-    cp $DIR/base16-jetbrains/* ~/Library/Preferences/WebIde70/colors
 fi
