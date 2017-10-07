@@ -1,2 +1,10 @@
-# Theme
-zstyle ':prezto:load' pmodule 'prompt'
+zstyle ':prezto:load' pmodule \
+  'environment' \
+  'autosuggestions' \
+  'utility' \
+  'syntax-highlighting' \
+  'prompt'
+
+zstyle ':prezto:module:autosuggestions' color 'yes'
+zstyle ':prezto:module:syntax-highlighting' color 'yes'
+zstyle ':prezto:module:utility:*' color 'yes'

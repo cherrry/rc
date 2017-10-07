@@ -19,4 +19,4 @@ source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 # Theme
 autoload -Uz promptinit
 promptinit
-prompt peepcode "$"
+prompt peepcode
