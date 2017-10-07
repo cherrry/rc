@@ -8,4 +8,4 @@ base16_default-dark
 # Theme
 autoload -Uz promptinit
 promptinit
-prompt giddie
+prompt peepcode "$"
