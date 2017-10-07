@@ -2,6 +2,16 @@
 
 DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
 
+mkdir -p "${HOME}/.config"
+
+# base16 shell
+[ ! -L "${HOME}/.config/base16-shell" ] && \
+  ln -s "${DIR}/base16-shell" "${HOME}/.config/base16-shell"
+
+# git configs
+ln -sF "${DIR}/gitconfig" "${HOME}/.gitconfig"
+ln -sF "${DIR}/gitignore" "${HOME}/.gitignore"
+
 # dependencies
 git submodule update --init --recursive
 git submodule update --remote --recursive
@@ -16,3 +26,4 @@ ln -sF "${DIR}/vimrc" "${HOME}/.vimrc"
 [ ! -L "${HOME}/.zprezto" ] && \
   ln -s "${DIR}/zsh/prezto" "${HOME}/.zprezto"
 ln -sF "${DIR}/zshrc" "${HOME}/.zshrc"
+ln -sF "${DIR}/zpreztorc" "${HOME}/.zpreztorc"

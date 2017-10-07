@@ -4,3 +4,6 @@
 [submodule "zsh/prezto"]
 	path = zsh/prezto
 	url = https://github.com/sorin-ionescu/prezto.git
+[submodule "base16-shell"]
+	path = base16-shell
+	url = https://github.com/chriskempson/base16-shell.git
