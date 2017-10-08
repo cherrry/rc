@@ -2,6 +2,7 @@ zstyle ':prezto:load' pmodule \
   'environment' \
   'autosuggestions' \
   'utility' \
+  'completion' \
   'syntax-highlighting' \
   'prompt'
 
