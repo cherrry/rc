@@ -10,8 +10,8 @@ BASE16_SHELL=$HOME/.config/base16-shell/
 base16_default-dark
 
 # git alias
-alias gst="git status"
-alias gdc="git diff --cached"
+#alias gst="git status"
+#alias gdc="git diff --cached"
 
 # homebrew
 export HOMEBREW_NO_ANALYTICS=1

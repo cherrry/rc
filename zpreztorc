@@ -1,12 +1,14 @@
 zstyle ':prezto:load' pmodule \
   'environment' \
   'autosuggestions' \
+  'git' \
   'utility' \
   'completion' \
   'syntax-highlighting' \
   'prompt'
 
 zstyle ':prezto:module:autosuggestions' color 'yes'
+zstyle ':prezto:module:git:info' verbose 'yes'
 zstyle ':prezto:module:prompt' theme 'peepcode'
 zstyle ':prezto:module:syntax-highlighting' color 'yes'
 zstyle ':prezto:module:utility:*' color 'yes'
