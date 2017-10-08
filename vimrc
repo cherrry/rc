@@ -7,6 +7,10 @@ set mouse=a
 set nonumber
 set smartindent
 set autoindent
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
+set expandtab
 let mapleader=';'
 
 " Plugin Manager
