@@ -19,8 +19,3 @@ export HOMEBREW_NO_AUTO_UPDATE=1
 
 # Prezto
 source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
-
-# Theme
-autoload -Uz promptinit
-promptinit
-prompt peepcode
