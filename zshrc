@@ -13,6 +13,10 @@ base16_default-dark
 alias gst="git status"
 alias gdc="git diff --cached"
 
+# homebrew
+export HOMEBREW_NO_ANALYTICS=1
+export HOMEBREW_NO_AUTO_UPDATE=1
+
 # Prezto
 source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 
