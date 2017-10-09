@@ -2,6 +2,7 @@ zstyle ':prezto:load' pmodule \
   'environment' \
   'autosuggestions' \
   'git' \
+  'history' \
   'utility' \
   'completion' \
   'syntax-highlighting' \
