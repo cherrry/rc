@@ -86,7 +86,9 @@ let NERDTreeIgnore=['.git', 'target']
 nnoremap <C-n> :NERDTreeTabsToggle<CR>
 
 " Ack
-let g:ackprg='ag'
+if executable('ag')
+  let g:ackprg = 'ag --vimgrep'
+endif
 let g:ag_working_path_mode='r'
 
 " CtrlP
