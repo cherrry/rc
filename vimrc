@@ -22,6 +22,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
 " Project Based
+Plugin 'cherrry/1ndependence.vim'
 Plugin 'editorconfig/editorconfig-vim'
 
 " Display Settings
@@ -31,6 +32,7 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'nathanaelkane/vim-indent-guides'
 
 " Code Editing
+Plugin 'Valloric/YouCompleteMe'
 Plugin 'scrooloose/nerdcommenter'
 
 " Code Searching
@@ -47,6 +49,9 @@ Plugin 'elzr/vim-json'
 let g:vim_json_syntax_conceal=0
 
 Plugin 'octol/vim-cpp-enhanced-highlight'
+Plugin 'pangloss/vim-javascript'
+Plugin 'mxw/vim-jsx'
+Plugin 'flowtype/vim-flow'
 
 " Vundle (end)
 call vundle#end()
