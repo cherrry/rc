@@ -50,8 +50,8 @@ let g:vim_json_syntax_conceal=0
 
 Plugin 'octol/vim-cpp-enhanced-highlight'
 Plugin 'pangloss/vim-javascript'
-Plugin 'mxw/vim-jsx'
 Plugin 'flowtype/vim-flow'
+Plugin 'maxmellon/vim-jsx-pretty'
 
 " Vundle (end)
 call vundle#end()
@@ -104,6 +104,10 @@ set wildignore+=*/tmp/*,*/.git/*
 set wildignore+=*.so,*.swp,*.zip
 set wildignore+=*.pyc,*.min.js
 set wildignore+=*/target/*
+
+" JavaScript
+let g:javascript_plugin_flow=1
+let g:flow#autoclose=1
 
 " Fix delete
 set backspace=2
