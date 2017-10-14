@@ -13,6 +13,7 @@ set shiftwidth=2
 set expandtab
 set fillchars=vert:\│
 let mapleader=';'
+nnoremap <C-c> <silent> <C-c>
 
 " Plugin Manager
 set rtp+=~/.vim/bundle/Vundle.vim
