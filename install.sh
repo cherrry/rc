@@ -24,5 +24,7 @@ ln -sF "${DIR}/vimrc" "${HOME}/.vimrc"
 # zsh
 [ ! -L "${HOME}/.zprezto" ] && \
   ln -s "${DIR}/zsh/prezto" "${HOME}/.zprezto"
+[ ! -L "${HOME}/.zcustom" ] && \
+  ln -s "${DIR}/zsh/custom" "${HOME}/.zcustom"
 ln -sF "${DIR}/zshrc" "${HOME}/.zshrc"
 ln -sF "${DIR}/zpreztorc" "${HOME}/.zpreztorc"
