@@ -15,12 +15,12 @@ set fillchars=vert:\│
 let mapleader=';'
 nnoremap <C-c> <silent> <C-c>
 
-" Plugin Manager
+" Plugin Manager (begin)
 set rtp+=~/.vim/bundle/Vundle.vim
-
-" Vundle (begin)
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
+Plugin 'google/vim-maktaba'
+Plugin 'google/vim-glaive'
 
 " Project Based
 Plugin 'cherrry/1ndependence.vim'
@@ -35,6 +35,7 @@ Plugin 'nathanaelkane/vim-indent-guides'
 " Code Editing
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'scrooloose/nerdcommenter'
+Plugin 'google/vim-codefmt'
 
 " Code Searching
 Plugin 'othree/eregex.vim'
@@ -54,8 +55,9 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'flowtype/vim-flow'
 Plugin 'maxmellon/vim-jsx-pretty'
 
-" Vundle (end)
+" Plugin Manager (end)
 call vundle#end()
+call glaive#Install()
 
 " Basic Configuration (con't)
 filetype plugin indent on
@@ -105,6 +107,9 @@ set wildignore+=*/tmp/*,*/.git/*
 set wildignore+=*.so,*.swp,*.zip
 set wildignore+=*.pyc,*.min.js
 set wildignore+=*/target/*
+
+" CodeFmt
+Glaive codefmt plugin[mappings]
 
 " JavaScript
 let g:javascript_plugin_flow=1
