@@ -34,6 +34,7 @@ Plugin 'nathanaelkane/vim-indent-guides'
 
 " Code Editing
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'vim-syntastic/syntastic'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'google/vim-codefmt'
 
@@ -54,6 +55,7 @@ Plugin 'octol/vim-cpp-enhanced-highlight'
 Plugin 'pangloss/vim-javascript'
 Plugin 'flowtype/vim-flow'
 Plugin 'maxmellon/vim-jsx-pretty'
+Plugin 'keith/swift.vim'
 
 " Plugin Manager (end)
 call vundle#end()
