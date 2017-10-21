@@ -45,6 +45,7 @@ Plugin 'mileszs/ack.vim'
 " File Browsing
 Plugin 'scrooloose/nerdtree'
 Plugin 'jistr/vim-nerdtree-tabs'
+Plugin 'albfan/nerdtree-git-plugin'
 Plugin 'kien/ctrlp.vim'
 
 " Syntax Files
