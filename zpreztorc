@@ -6,6 +6,7 @@ fpath=(
 zstyle ':prezto:load' pmodule \
   'environment' \
   'autosuggestions' \
+  'directory' \
   'git' \
   'history' \
   'utility' \

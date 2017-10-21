@@ -12,3 +12,9 @@ export HOMEBREW_NO_AUTO_UPDATE=1
 
 # Prezto
 source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
+
+# Directories
+alias -g ...='../..'
+alias -g ....='../../..'
+alias -g .....='../../../..'
+alias -g ......='../../../../..'
