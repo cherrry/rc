@@ -54,7 +54,6 @@ let g:vim_json_syntax_conceal=0
 
 Plugin 'octol/vim-cpp-enhanced-highlight'
 Plugin 'pangloss/vim-javascript'
-Plugin 'flowtype/vim-flow'
 Plugin 'maxmellon/vim-jsx-pretty'
 Plugin 'keith/swift.vim'
 
@@ -113,10 +112,6 @@ set wildignore+=*/target/*
 
 " CodeFmt
 Glaive codefmt plugin[mappings]
-
-" JavaScript
-let g:javascript_plugin_flow=1
-let g:flow#autoclose=1
 
 " Fix delete
 set backspace=2
