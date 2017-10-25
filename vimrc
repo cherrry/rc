@@ -54,6 +54,7 @@ let g:vim_json_syntax_conceal=0
 
 Plugin 'octol/vim-cpp-enhanced-highlight'
 Plugin 'pangloss/vim-javascript'
+Plugin 'ternjs/tern_for_vim'
 Plugin 'maxmellon/vim-jsx-pretty'
 Plugin 'keith/swift.vim'
 
