@@ -49,13 +49,17 @@ Plugin 'albfan/nerdtree-git-plugin'
 Plugin 'kien/ctrlp.vim'
 
 " Syntax Files
-Plugin 'elzr/vim-json'
-let g:vim_json_syntax_conceal=0
-
 Plugin 'octol/vim-cpp-enhanced-highlight'
+
 Plugin 'pangloss/vim-javascript'
 Plugin 'ternjs/tern_for_vim'
 Plugin 'maxmellon/vim-jsx-pretty'
+Plugin 'mtscout6/syntastic-local-eslint.vim'
+let g:syntastic_javascript_checkers=['eslint']
+
+Plugin 'elzr/vim-json'
+let g:vim_json_syntax_conceal=0
+
 Plugin 'keith/swift.vim'
 
 " Plugin Manager (end)
