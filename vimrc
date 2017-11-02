@@ -52,6 +52,7 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'octol/vim-cpp-enhanced-highlight'
 
 Plugin 'pangloss/vim-javascript'
+Plugin 'leafgarland/typescript-vim'
 Plugin 'ternjs/tern_for_vim'
 Plugin 'maxmellon/vim-jsx-pretty'
 Plugin 'mtscout6/syntastic-local-eslint.vim'
