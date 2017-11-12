@@ -1,0 +1,14 @@
+{
+  "env": {
+    "node": true
+  },
+  "parser": "babel-eslint",
+  "extends": [
+    "eslint:recommended",
+    "google"
+  ],
+  "rules": {
+    "max-len": ["error", 100],
+    "require-jsdoc": 0
+  }
+}

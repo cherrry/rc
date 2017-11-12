@@ -28,3 +28,6 @@ ln -sF "${DIR}/vimrc" "${HOME}/.vimrc"
   ln -s "${DIR}/zsh/custom" "${HOME}/.zcustom"
 ln -sF "${DIR}/zshrc" "${HOME}/.zshrc"
 ln -sF "${DIR}/zpreztorc" "${HOME}/.zpreztorc"
+
+# base editing
+ln -sF "${DIR}/eslintrc" "${HOME}/.eslintrc"
