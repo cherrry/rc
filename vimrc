@@ -130,6 +130,7 @@ let g:table_mode_corner='|'
 " DevIcon
 let g:WebDevIconsOS='Darwin'
 let g:WebDevIconsUnicodeDecorateFolderNodes=1
+cnoreabbrev q :NERDTreeClose<CR>:q
 
 " Fix delete
 set backspace=2
