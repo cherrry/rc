@@ -37,6 +37,7 @@ Plugin 'Valloric/YouCompleteMe'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'google/vim-codefmt'
+Plugin 'dhruvasagar/vim-table-mode'
 
 " Code Searching
 Plugin 'othree/eregex.vim'
@@ -118,6 +119,9 @@ set wildignore+=*/target/*
 
 " CodeFmt
 Glaive codefmt plugin[mappings]
+
+" Markdown
+let g:table_mode_corner='|'
 
 " Fix delete
 set backspace=2
