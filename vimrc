@@ -47,7 +47,8 @@ Plugin 'mileszs/ack.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'albfan/nerdtree-git-plugin'
-Plugin 'kien/ctrlp.vim'
+Plugin 'tiagofumo/vim-nerdtree-syntax-highlight'
+Plugin 'ctrlpvim/ctrlp.vim'
 
 " Syntax Files
 Plugin 'octol/vim-cpp-enhanced-highlight'
@@ -63,6 +64,9 @@ Plugin 'elzr/vim-json'
 let g:vim_json_syntax_conceal=0
 
 Plugin 'keith/swift.vim'
+
+" DevIcon
+Plugin 'ryanoasis/vim-devicons'
 
 " Plugin Manager (end)
 call vundle#end()
@@ -122,6 +126,10 @@ Glaive codefmt plugin[mappings]
 
 " Markdown
 let g:table_mode_corner='|'
+
+" DevIcon
+let g:WebDevIconsOS='Darwin'
+let g:WebDevIconsUnicodeDecorateFolderNodes=1
 
 " Fix delete
 set backspace=2
