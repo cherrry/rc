@@ -31,3 +31,9 @@ ln -sF "${DIR}/zpreztorc" "${HOME}/.zpreztorc"
 
 # base editing
 ln -sF "${DIR}/eslintrc" "${HOME}/.eslintrc"
+
+# install xcode color scheme
+if [ `uname` == 'Darwin' ]; then
+  mkdir -p ~/Library/Developer/Xcode/UserData/FontAndColorThemes
+  cp -f "${DIR}/xcode/*" "${HOME}/Library/Developer/Xcode/UserData/FontAndColorThemes"
+fi
