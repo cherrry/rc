@@ -41,14 +41,12 @@ Plugin 'dhruvasagar/vim-table-mode'
 
 " Code Searching
 Plugin 'othree/eregex.vim'
-Plugin 'mileszs/ack.vim'
 
 " File Browsing
 Plugin 'scrooloose/nerdtree'
 Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'albfan/nerdtree-git-plugin'
 Plugin 'tiagofumo/vim-nerdtree-syntax-highlight'
-Plugin 'ctrlpvim/ctrlp.vim'
 
 " Syntax Files
 Plugin 'octol/vim-cpp-enhanced-highlight'
@@ -105,21 +103,6 @@ set laststatus=2
 let NERDTreeHighlightCursorline=1
 let NERDTreeIgnore=['.git', 'target']
 nnoremap <C-n> :NERDTreeTabsToggle<CR>
-
-" Ack
-if executable('ag')
-  let g:ackprg = 'ag --vimgrep'
-endif
-let g:ag_working_path_mode='r'
-
-" CtrlP
-let g:ctrlp_map='<c-p>'
-let g:ctrlp_cmd='CtrlP'
-let g:ctrlp_working_path_mode='ra'
-set wildignore+=*/tmp/*,*/.git/*
-set wildignore+=*.so,*.swp,*.zip
-set wildignore+=*.pyc,*.min.js
-set wildignore+=*/target/*
 
 " CodeFmt
 Glaive codefmt plugin[mappings]
