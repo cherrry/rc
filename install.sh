@@ -32,8 +32,12 @@ ln -sF "${DIR}/zpreztorc" "${HOME}/.zpreztorc"
 # base editing
 ln -sF "${DIR}/eslintrc" "${HOME}/.eslintrc"
 
-# install xcode color scheme
+# mac specific
 if [ `uname` == 'Darwin' ]; then
+  # install xcode color scheme
   mkdir -p ~/Library/Developer/Xcode/UserData/FontAndColorThemes
   cp -f "${DIR}/xcode/*" "${HOME}/Library/Developer/Xcode/UserData/FontAndColorThemes"
+  # iterm2 shell integration
+  curl -L https://iterm2.com/shell_integration/install_shell_integration_and_utilities.sh | bash
+  chmod +x "${HOME}/.iterm2_shell_integration.zsh"
 fi

@@ -1,4 +1,5 @@
-# 256-color support
+# defaults
+export EDITOR=vim
 export TERM=xterm-256color
 
 # base16 shell
@@ -18,3 +19,7 @@ alias -g ...='../..'
 alias -g ....='../../..'
 alias -g .....='../../../..'
 alias -g ......='../../../../..'
+
+# iTerm2 shell integration
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
