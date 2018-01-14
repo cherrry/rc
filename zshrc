@@ -24,3 +24,5 @@ alias -g ......="../../../../.."
 alias status="it2setkeylabel set status"
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
+# direnv
+eval "$(direnv hook zsh)"
