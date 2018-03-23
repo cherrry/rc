@@ -72,6 +72,10 @@ call glaive#Install()
 " Basic Configuration (con't)
 filetype plugin indent on
 
+" Scroll Behavior
+nnoremap <C-u> 2<C-y>
+nnoremap <C-d> 2<C-e>
+
 " Color Scheme
 if filereadable(expand("~/.vimrc_background"))
   let base16colorspace=256
