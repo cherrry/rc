@@ -73,8 +73,8 @@ call glaive#Install()
 filetype plugin indent on
 
 " Scroll Behavior
-nnoremap <C-u> 2<C-y>
-nnoremap <C-d> 2<C-e>
+nnoremap <C-j> 2<C-e>
+nnoremap <C-k> 2<C-y>
 
 " Color Scheme
 if filereadable(expand("~/.vimrc_background"))
