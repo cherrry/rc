@@ -15,6 +15,11 @@ set fillchars=vert:\│
 let mapleader=';'
 nnoremap <C-c> <silent> <C-c>
 
+" BUG: vim/vim#3117
+if has('python3')
+  silent! python3 1
+endif
+
 " Plugin Manager (begin)
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
