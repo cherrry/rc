@@ -6,6 +6,17 @@ DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
 git submodule update --init --recursive
 git submodule update --remote --recursive
 
+# rime
+rime_dir="${HOME}/.config/ibus/rime"
+if [ `uname` == 'Darwin' ]; then
+  rime_dir="${HOME}/Library/Rime"
+fi
+mkdir -p "${rime_dir}"
+ln -sF "${DIR}/rime/cangjie5.custom.yaml" "${rime_dir}"
+ln -sF "${DIR}/rime/default.custom.yaml" "${rime_dir}"
+ln -sF "${DIR}/rime/squirrel.custom.yaml" "${rime_dir}"
+ln -sF "${DIR}/rime/rime-cangjie3-extension/cangjie5.cj3ext.dict.yaml" "${rime_dir}"
+
 # base16 shell
 mkdir -p "${HOME}/.config"
 [ ! -L "${HOME}/.config/base16-shell" ] && \
