@@ -1,0 +1,4 @@
+patch:
+  us_keyboard_layout: true
+  style/corner_radius: 5
+  style/font_point: 16

@@ -1,0 +1,6 @@
+patch:
+  schema/dependencies/+:
+    - jyutping
+  reverse_lookup/dictionary: jyutping
+  reverse_lookup/preedit_format: []
+  reverse_lookup/tips: "〔粵拼〕"
