@@ -1,6 +1,6 @@
 patch:
-  schema/dependencies/+:
-    - jyutping
   reverse_lookup/dictionary: jyutping
+  # reverse_lookup/prism: luna_pinyin # required on linux
   reverse_lookup/preedit_format: []
   reverse_lookup/tips: "〔粵拼〕"
+  translator/dictionary: cangjie5.cj3ext
