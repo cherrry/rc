@@ -4,3 +4,4 @@ patch:
   reverse_lookup/preedit_format: []
   reverse_lookup/tips: "〔粵拼〕"
   translator/dictionary: cangjie5.cj3ext
+  translator/enable_encoder: false
