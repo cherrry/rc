@@ -1,4 +1,5 @@
 patch:
   us_keyboard_layout: true
   style/corner_radius: 5
-  style/font_point: 16
+  style/font_face: "Noto Sans CJK TC"
+  style/font_point: 14

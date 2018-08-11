@@ -1,4 +1,6 @@
 patch:
+  abc_segmentor/extra_tags:
+    - reverse_lookup
   reverse_lookup/dictionary: jyutping
   # reverse_lookup/prism: luna_pinyin # required on linux
   reverse_lookup/preedit_format: []
