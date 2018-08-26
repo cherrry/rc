@@ -43,6 +43,9 @@ ln -sF "${DIR}/vimrc" "${HOME}/.vimrc"
 ln -sF "${DIR}/zshrc" "${HOME}/.zshrc"
 ln -sF "${DIR}/zpreztorc" "${HOME}/.zpreztorc"
 
+# tmux
+ln -sF "${DIR}/tmux.conf" "${HOME}/.tmux.conf
+
 # base editing
 ln -sF "${DIR}/eslintrc" "${HOME}/.eslintrc"
 
