@@ -94,6 +94,7 @@ set t_Co=256
 set background=dark
 syntax on
 hi Normal ctermbg=None
+hi Comment cterm=italic
 hi VertSplit ctermbg=232 ctermfg=239
 
 " Indent Guides
