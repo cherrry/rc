@@ -33,8 +33,7 @@ Plugin 'editorconfig/editorconfig-vim'
 
 " Display Settings
 Plugin 'chriskempson/base16-vim'
-Plugin 'vim-airline/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
+Plugin 'itchyny/lightline.vim'
 Plugin 'Yggdroot/indentLine'
 
 " Code Editing
@@ -101,10 +100,10 @@ hi VertSplit ctermbg=232 ctermfg=239
 set list lcs=tab:\│\ 
 let g:indentLine_char='│'
 
-" Airline
-let g:airline_powerline_fonts=1
-let g:airline#extensions#tabline#enabled=1
+" Lightline
+let g:lightline = {'colorscheme': 'wombat'}
 set laststatus=2
+set noshowmode
 
 " NERDTree
 let NERDTreeHighlightCursorline=1
