@@ -17,6 +17,9 @@ ln -sF "${DIR}/rime/default.custom.yaml" "${rime_dir}"
 ln -sF "${DIR}/rime/squirrel.custom.yaml" "${rime_dir}"
 ln -sF "${DIR}/rime/rime-cangjie3-extension/cangjie5.cj3ext.dict.yaml" "${rime_dir}"
 
+# true color
+tic -x "${DIR}/terminfo/xterm-256color-italic.terminfo"
+
 # base16 shell
 mkdir -p "${HOME}/.config"
 [ ! -L "${HOME}/.config/base16-shell" ] && \

@@ -56,6 +56,7 @@ Plugin 'tiagofumo/vim-nerdtree-syntax-highlight'
 " Syntax Files
 Plugin 'octol/vim-cpp-enhanced-highlight'
 
+Plugin 'ap/vim-css-color'
 Plugin 'pangloss/vim-javascript'
 Plugin 'ternjs/tern_for_vim'
 Plugin 'maxmellon/vim-jsx-pretty'
@@ -82,6 +83,9 @@ nnoremap <C-j> 2<C-e>
 nnoremap <C-k> 2<C-y>
 
 " Color Scheme
+let &t_8f="\<Esc>[38;2;%lu;%lu;%lum"
+let &t_8b="\<Esc>[48;2;%lu;%lu;%lum"
+set termguicolors
 if filereadable(expand("~/.vimrc_background"))
   let base16colorspace=256
   source ~/.vimrc_background
