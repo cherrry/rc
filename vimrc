@@ -100,12 +100,13 @@ let g:indentLine_char='│'
 let g:lightline = {
   \   'colorscheme': 'wombat',
   \   'component_function': {
-  \     'filename': 'CustomLightlineFileName',
+  \     'filename': 'LightlineFilename',
   \   }
   \ }
-function! CustomLightlineFileName()
-  let fn = expand('%:.')
-  return strlen(&filetype) ? fn.' '. WebDevIconsGetFileTypeSymbol() : fn
+function! LightlineFilename()
+  let filename = expand('%:t') !=# '' ? expand('%:t') : '[No Name]'
+  let devicon = strlen(&filetype) ? ' '.WebDevIconsGetFileTypeSymbol() : ''
+  return filename . devicon
 endfunction
 
 set laststatus=2
