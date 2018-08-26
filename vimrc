@@ -41,7 +41,6 @@ Plugin 'Valloric/YouCompleteMe'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'google/vim-codefmt'
-Plugin 'dhruvasagar/vim-table-mode'
 
 " Code Searching
 Plugin 'othree/eregex.vim'
@@ -49,7 +48,6 @@ Plugin 'othree/eregex.vim'
 " File Browsing
 Plugin 'scrooloose/nerdtree'
 Plugin 'jistr/vim-nerdtree-tabs'
-Plugin 'albfan/nerdtree-git-plugin'
 Plugin 'tiagofumo/vim-nerdtree-syntax-highlight'
 
 " Syntax Files
@@ -64,8 +62,6 @@ let g:syntastic_javascript_checkers=['eslint']
 
 Plugin 'elzr/vim-json'
 let g:vim_json_syntax_conceal=0
-
-Plugin 'keith/swift.vim'
 
 " DevIcon
 Plugin 'ryanoasis/vim-devicons'
@@ -101,7 +97,17 @@ set list lcs=tab:\│\
 let g:indentLine_char='│'
 
 " Lightline
-let g:lightline = {'colorscheme': 'wombat'}
+let g:lightline = {
+  \   'colorscheme': 'wombat',
+  \   'component_function': {
+  \     'filename': 'CustomLightlineFileName',
+  \   }
+  \ }
+function! CustomLightlineFileName()
+  let fn = expand('%:.')
+  return strlen(&filetype) ? fn.' '. WebDevIconsGetFileTypeSymbol() : fn
+endfunction
+
 set laststatus=2
 set noshowmode
 
@@ -112,9 +118,6 @@ nnoremap <C-n> :NERDTreeTabsToggle<CR>
 
 " CodeFmt
 Glaive codefmt plugin[mappings]
-
-" Markdown
-let g:table_mode_corner='|'
 
 " DevIcon
 let g:WebDevIconsOS='Darwin'
