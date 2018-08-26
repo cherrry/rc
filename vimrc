@@ -104,9 +104,9 @@ let g:lightline = {
   \   }
   \ }
 function! LightlineFilename()
+  let devicon = strlen(&filetype) ? WebDevIconsGetFileTypeSymbol().' ' : ''
   let filename = expand('%:t') !=# '' ? expand('%:t') : '[No Name]'
-  let devicon = strlen(&filetype) ? ' '.WebDevIconsGetFileTypeSymbol() : ''
-  return filename . devicon
+  return devicon . filename
 endfunction
 
 set laststatus=2
