@@ -10,3 +10,6 @@
 [submodule "rime/rime-cangjie3-extension"]
 	path = rime/rime-cangjie3-extension
 	url = https://github.com/kennethso168/rime-cangjie3-extension.git
+[submodule "tmux/plugins/tpm"]
+	path = tmux/plugins/tpm
+	url = https://github.com/tmux-plugins/tpm

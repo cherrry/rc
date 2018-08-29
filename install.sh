@@ -44,6 +44,9 @@ ln -sF "${DIR}/zshrc" "${HOME}/.zshrc"
 ln -sF "${DIR}/zpreztorc" "${HOME}/.zpreztorc"
 
 # tmux
+mkdir -p "${HOME}/.tmux/plugins"
+[ ! -L "${HOME}/.vim/plugins/tpm" ] && \
+  ln -sF "${DIR}/tmux/plugins/tpm" "${HOME}/.tmux/plugins/tpm"
 ln -sF "${DIR}/tmux.conf" "${HOME}/.tmux.conf"
 
 # base editing
