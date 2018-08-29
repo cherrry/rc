@@ -5,6 +5,7 @@ set shell=/bin/bash
 set encoding=utf8
 set mouse=a
 set nonumber
+set hlsearch
 set smartindent
 set autoindent
 set tabstop=2
@@ -14,6 +15,7 @@ set expandtab
 set fillchars=vert:\│
 let mapleader=';'
 nnoremap <C-c> <silent> <C-c>
+nnoremap \ :nohlsearch<Cr>
 
 " BUG: vim/vim#3117
 if has('python3')
