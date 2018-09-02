@@ -47,6 +47,8 @@ ln -sF "${DIR}/zpreztorc" "${HOME}/.zpreztorc"
 mkdir -p "${HOME}/.tmux/plugins"
 [ ! -L "${HOME}/.vim/plugins/tpm" ] && \
   ln -sF "${DIR}/tmux/plugins/tpm" "${HOME}/.tmux/plugins/tpm"
+[ ! -L "${HOME}/.vim/plugins/tmux-colours" ] && \
+  ln -sF "${DIR}/tmux/plugins/tmux-colours" "${HOME}/.tmux/plugins/tmux-colours"
 ln -sF "${DIR}/tmux.conf" "${HOME}/.tmux.conf"
 
 # base editing
