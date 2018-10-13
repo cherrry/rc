@@ -19,7 +19,7 @@
 	<key>AutoHideTmuxClientSession</key>
 	<false/>
 	<key>CheckTestRelease</key>
-	<true/>
+	<false/>
 	<key>ClosingHotkeySwitchesSpaces</key>
 	<false/>
 	<key>CommandSelection</key>
@@ -1007,7 +1007,7 @@
 	gAKACoAN0xAJChEVGVdOUy5rZXlzoxITFIADgASABaMWFxiABoAHgAiACVpJZGVudGlm
 	aWVyVVdpZHRoVkhpZGRlblEwI0BowAAAAAAACNIhIiMkWiRjbGFzc25hbWVYJGNsYXNz
 	ZXNcTlNEaWN0aW9uYXJ5oiMlWE5TT2JqZWN00xAJCicrGaMSExSAA4AEgAWjLC0YgAuA
-	DIAIgAlRMSNAdKGdsi0OVtIhIjM0Xk5TTXV0YWJsZUFycmF5ozM1JVdOU0FycmF5XxAP
+	DIAIgAlRMSNAc7Gdsi0OVtIhIjM0Xk5TTXV0YWJsZUFycmF5ozM1JVdOU0FycmF5XxAP
 	TlNLZXllZEFyY2hpdmVy0Tg5VUFycmF5gAEACAARABoAIwAtADIANwBGAEwAUQBcAGMA
 	ZgBoAGoAbABzAHsAfwCBAIMAhQCJAIsAjQCPAJEAnACiAKkAqwC0ALUAugDFAM4A2wDe
 	AOcA7gDyAPQA9gD4APwA/gEAAQIBBAEGAQ8BFAEjAScBLwFBAUQBSgAAAAAAAAIBAAAA
@@ -1085,19 +1085,19 @@
 	<key>NSWindow Frame ProfilesPanel</key>
 	<string>421 614 735 382 0 0 2560 1417 </string>
 	<key>NSWindow Frame SUStatusFrame</key>
-	<string>612 249 400 129 0 0 1680 1027 </string>
+	<string>1080 966 400 129 0 0 2560 1417 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>530 476 620 392 0 0 1680 1027 </string>
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>269 76 599 519 0 0 1440 877 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>728 495 937 512 0 0 1680 1027 </string>
+	<string>1166 721 796 486 0 0 2560 1417 </string>
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>99 293 592 584 0 0 1440 877 </string>
 	<key>NSWindow Frame com.apple.typography_panel_Hack-Regular</key>
 	<string>246 463 260 96 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>640 229 910 643 0 0 1680 1027 </string>
+	<string>214 302 910 643 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>0 0 1440 900 0 0 1440 877 </string>
 	<key>NeverWarnAboutShortLivedSessions_5248D609-FC7B-460E-85B2-2AD4C8AC897D</key>
@@ -1745,6 +1745,8 @@
 			<string>ProFontIIxNerdFontCompleteM- 17</string>
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
+			<key>Non-ASCII Ligatures</key>
+			<false/>
 			<key>Normal Font</key>
 			<string>Hack-Regular 17</string>
 			<key>Only The Default BG Color Uses Transparency</key>
@@ -1906,7 +1908,7 @@
 			<key>Thin Strokes</key>
 			<integer>3</integer>
 			<key>Transparency</key>
-			<real>0.14698222740140571</real>
+			<real>0.18679623438110107</real>
 			<key>Triggers</key>
 			<array/>
 			<key>Unlimited Scrollback</key>
@@ -1932,6 +1934,8 @@
 		</dict>
 	</array>
 	<key>NoSyncCommandHistoryHasEverBeenUsed</key>
+	<true/>
+	<key>NoSyncHaveWarnedAboutIncompatibleSoftware</key>
 	<true/>
 	<key>NoSyncHaveWarnedAboutPasteConfirmationChange</key>
 	<true/>
@@ -2011,11 +2015,11 @@
 	<key>SUFeedAlternateAppNameKey</key>
 	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>https://iterm2.com/appcasts/testing.xml?shard=81</string>
+	<string>https://iterm2.com/appcasts/final.xml?shard=81</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-08-25T11:25:06Z</date>
+	<date>2018-10-10T11:40:34Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SavePasteHistory</key>
@@ -2082,6 +2086,6 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.2.1beta1</string>
+	<string>3.2.3beta2</string>
 </dict>
 </plist>
