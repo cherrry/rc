@@ -2,9 +2,8 @@ patch:
   abc_segmentor/extra_tags:
     - reverse_lookup
   reverse_lookup/dictionary: jyutping
-  # reverse_lookup/prism: luna_pinyin # required on linux
+  reverse_lookup/prism: jyutping
   reverse_lookup/preedit_format: []
   reverse_lookup/tips: "〔粵拼〕"
   translator/dictionary: cangjie5.cj3ext
   translator/enable_encoder: false
-  translator/enable_user_dict: false
