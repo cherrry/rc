@@ -1,10 +1,10 @@
 patch:
-  ascii_composer/good_old_caps_lock: false
+  ascii_composer/good_old_caps_lock: noop
   ascii_composer/switch_key:
-    Caps_Lock: clear
+    Caps_Lock: noop
     Shift_L: noop
     Shift_R: noop
-    Control_L: noop
+    Control_L: clear
     Control_R: noop
   key_binder/bindings:
     - when: paging
